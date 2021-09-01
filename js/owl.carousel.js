@@ -496,7 +496,7 @@ if ( typeof Object.create !== "function" ) {
 
 			if(base.options.navigation === false){
 				return false;
-			}
+			}i
 			if(base.options.rewindNav === false){
 				if(base.currentItem === 0 && base.maximumItem === 0){
 					base.buttonPrev.addClass("disabled");
